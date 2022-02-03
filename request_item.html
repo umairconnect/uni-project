@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="section">
+      <div class="container">
+    
+          <section class="ftco-section">
+            <div class="container">
+               
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="wrapper">
+                            <div class="row no-gutters">
+                                <div class="col-md-6 d-flex align-items-stretch">
+                                    <div class="contact-wrap w-100 p-md-5 p-4 py-5">
+                                        <h3 class="mb-4">Request Item</h3>
+                                    
+                            
+                                        <form method="POST" action="php/request.php" id="contactForm" name="contactForm" enctype="multipart/form-data" class="contactForm">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="name" required placeholder="Name">
+                                                    </div>
+                                                </div>
+                                               
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="phone" id="subject" placeholder="Phone">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="location" id="subject" placeholder="Location">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="description" placeholder="Item description">          
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" hidden class="form-control" name="notaccepted" value="Not accepted">          
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="file" name="file">
+                                                    </div>
+                                                </div>
+
+
+
+
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" hidden class="form-control" name="type" id="subject" value="requested">
+                                                    </div>
+                                                </div>
+
+                                             
+                                               
+                                            
+                                            </div>
+                                      
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-flex align-items-stretch">
+                                    <div class="info-wrap w-100 p-md-5 p-4 py-5 img">
+                                        <h3>Choose Which type best fits your donated item</h3>
+                                        <p class="mb-4">We Are here to help and not to Profit</p>
+                                <div class="dbox w-100 d-flex align-items-start">
+                                                        <input type="checkbox" type="checkbox" name="techno[]" value="Patient monitor Heart blood pressure sugar monitors">
+                                                        <div class="text pl-3">
+                                                                <p><span>Patient monitor<a> Heart,blood pressure,sugar monitors</a></span></p>
+                                  </div>
+                              </div>
+                                <div>
+                                    <input type="checkbox" name="techno[]" value="Ventilator Portable Hospital or house use ventilator">
+                                    <div class="text pl-3">
+                                    <p><span>Ventilator <a>Portable, Hospital or house use ventilator</a></span></p>
+                                  </div>
+                              </div>
+                                <div>
+                                    <input type="checkbox" name="techno[]" value="Basic needs Medicine gear cloth and">
+                                    <div class="text pl-3">
+                                    <p><span>Basic needs</span> <a>Medicine,gear,cloth and </a></p>
+                                  </div>
+                              </div>
+                                <div>
+                                    <input type="checkbox" name="techno[]" value="Surgical equipment examples of surgical equipment">
+                                    <div class="text pl-3">
+                                    <p><span>Surgical equipment</span> <a>examples of surgical equipment</a></p>
+                                  </div>
+                              </div>
+
+                              
+                              <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="submit" value="Donate Now" class="btn btn-primary">
+                                    <div class="submitting"></div>
+                                </div>
+                             </div>
+    
+                            </form>
+                          </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      </div>
+
+  </section>
+
+
+</body>
+</html>
